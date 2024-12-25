@@ -70,7 +70,8 @@ clock_project/
 ## Screenshots
 
 ### Project Overview
-![Clock Project Screenshot](https://via.placeholder.com/600x300?text=Add+Clock+Project+Screenshot+Here)
+![image](https://github.com/user-attachments/assets/10280e0c-6fd5-4f04-983f-ef5ce287677f)
+
 
 ---
 

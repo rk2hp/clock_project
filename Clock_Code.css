@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #222;
+    color: #fff;
+    font-family: Arial, sans-serif;
+  }
+
+  .clock-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .clock {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border: 10px solid #fff;
+    border-radius: 50%;
+    background-color: #000;
+  }
+
+  .clock .center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+  }
+
+  .hand {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-origin: 50% 100%;
+    transform: translate(-50%, -100%) rotate(0deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .hour {
+    height: 75px;
+    font-size: 10px;
+    color: #fff;
+  }
+
+  .minute {
+    height: 105px;
+    font-size: 10px;
+    color: #fff;
+  }
+
+  .second {
+    height: 135px;
+    font-size: 10px;
+    color: red;
+  }
+
+  .number {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    transform-origin: center center;
+  }
+
+  .controls {
+    margin-top: 150px;
+    text-align: center;
+  }
+
+  .controls label {
+    margin: 0 10px;
+  }
+
+  .controls input {
+    width: 50px;
+    padding: 5px;
+    margin: 0 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  .controls button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .controls button:hover {
+    background-color: #0056b3;
+  }

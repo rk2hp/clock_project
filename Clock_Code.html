@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rk2hp Clock</title>
+  <link rel="stylesheet" href="Clock_Code.css">
+</head>
+<body>
+  <div class="clock-container">
+    <div class="clock">
+      <div class="center"></div>
+      <div class="hand hour" id="hour-hand"></div>
+      <div class="hand minute" id="minute-hand"></div>
+      <div class="hand second" id="second-hand"></div>
+    </div>
+    <div style="margin-top: 50px;">
+        <p style="font-weight: bold; font-style: italic;">@RK2HP</p>
+    </div>
+
+    <div class="controls">
+      <label>
+        Hour: <input type="number" id="custom-hour" min="0" max="23">
+      </label>
+      <label>
+        Minute: <input type="number" id="custom-minute" min="0" max="59">
+      </label>
+      <button id="set-time-btn">Set Time</button>
+      <button id="reset-time-btn">Reset Time</button>
+    </div>
+  </div>
+
+<script src="Clock_Code.js"></script>
+</body>
+</html>

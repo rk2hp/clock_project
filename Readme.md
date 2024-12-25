@@ -1,6 +1,6 @@
 # Clock Project
 
-This is a fully functional analog clock implemented using **HTML**, **CSS**, and **JavaScript**. The clock displays the current time and allows users to set a custom time or reset to the actual time dynamically.
+This is a fully functional DIGITAL ANALOG clock implemented using **HTML**, **CSS**, and **JavaScript**. The clock displays the current time and allows users to set a custom time or reset to the actual time dynamically.
 
 ---
 
@@ -9,7 +9,7 @@ This is a fully functional analog clock implemented using **HTML**, **CSS**, and
 - **Real-Time Clock**: The clock updates every second to reflect the current time.
 - **Set Custom Time**: Users can input specific hours and minutes to view a custom time on the clock.
 - **Reset to Actual Time**: Reset the clock to show the real-world time.
-- **Dynamic Number Display**: Numbers on the clock hands adjust based on their positions and always appear upright.
+- **Dynamic Number Display**: Numbers on the clock hands .
 - **Interactive UI**: Clean and user-friendly interface.
 
 ---

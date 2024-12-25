@@ -18,7 +18,7 @@ This is a fully functional DIGITAL ANALOG clock implemented using **HTML**, **CS
 
 ```
 clock_project/
-├── Clock_Code.html   # Main HTML file
+├── index.html   # Main HTML file
 ├── Clock_Code.css    # CSS file for styling
 ├── Clock_Code.js     # JavaScript file for functionality
 └── README.md         # Project documentation
@@ -38,9 +38,9 @@ clock_project/
    cd clock_project
    ```
 
-3. Open the `Clock_Code.html` file in your web browser:
+3. Open the `index.html` file in your web browser:
    ```bash
-   open Clock_Code.html
+   open index.html
    ```
 
 ---

@@ -31,7 +31,7 @@ function updateClock() {
   const minuteAngle = (360 / 60) * minutes + (360 / 60) * (seconds / 60);
   const secondAngle = (360 / 60) * seconds;
 
-  createNumbers(hourHand, hours, 7, hourAngle);
+  createNumbers(hourHand, hours, 6, hourAngle);
   createNumbers(minuteHand, minutes,7 , minuteAngle);
   createNumbers(secondHand, seconds, 9, secondAngle);
 

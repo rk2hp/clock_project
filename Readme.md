@@ -1,4 +1,4 @@
-# Clock Project
+# Creative Clock Interface
 
 This is a fully functional DIGITAL ANALOG clock implemented using **HTML**, **CSS**, and **JavaScript**. The clock displays the current time and allows users to set a custom time or reset to the actual time dynamically.
 
